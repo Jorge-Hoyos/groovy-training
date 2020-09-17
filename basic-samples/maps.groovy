@@ -1,6 +1,7 @@
 devMap = [:]
 devMap = ['name':'Roberto', 'framework':'Grails', 'language':'Groovy']
 devMap.put('lastName','Perez')
+devMap.id = 'cedula'
 
 devMap.each { println "$it.key: $it.value" }
 devMap.eachWithIndex { it, i -> println "$i: $it"}
